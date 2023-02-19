@@ -1,0 +1,153 @@
+.container-fluid{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.main-article{
+position:relative;
+margin-left: -15px;
+margin-right: -15px;
+width: 100%;
+}
+
+
+ul{
+
+  list-style: square;
+  list-style-position: inside;
+
+}
+
+ li{
+   color: red;
+ }
+
+
+li a {
+  color:black;
+}
+
+h4{
+  color: red;
+}
+
+#map-marker {
+  width: 100px;
+}
+
+.title a{
+  color:red;
+}
+.subtitle a{
+  color:black;
+}
+
+.img-responsive{
+  width:100%;
+}
+
+.primary-info{
+  .primary-info {
+      border-top: 4px solid #ff0500;
+      padding: 15px 30px 25px;
+      background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+      position: absolute;
+      text-align: center;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+}
+
+.secondary{
+  border-style: solid;
+  border-width: 1px;
+  height:690px;
+  border-color: #ebf0f0;
+
+}
+.secondary-photo{
+  margin-bottom: 14px;
+}
+
+.secondary-info{
+text-align: center;
+}
+
+.secondary-title a{
+  color:red;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.third-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+.third{
+  border-style: solid;
+  border-width: 1px;
+  height: 670px;
+  background-color: #edffff;
+  border-color: #94ffff
+}
+
+.third-info{
+  text-align: center;
+
+    }
+
+.third-title a{
+  color:#24c4f0;
+}
+
+.third-subtitle a{
+  color: black;
+}
+
+.third-photo{
+  margin-bottom: 14px;
+}
+
+/* media queries for small devices */
+
+@media all and (<=768px)(>=992px){
+  .img-responsive{
+    width:100px;
+    padding-right: -30px;
+  }
+}
+  @media all and (min-width: 768px)(max-width:992px){
+  .primary-info{
+    border-top:4px solid #ff0500;
+    padding:15px 30px 25px;
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    position: absolute;
+
+    }
+  }
+
+  @media (min-width: 992px) {
+  .primary-info {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.primary-info {
+
+    border-top: 4px solid #ff0500;
+
+    padding: 15px 30px 25px;
+
+    text-align: center;
+
+}
